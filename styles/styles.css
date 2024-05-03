@@ -29,15 +29,20 @@ aside {
     border: 1px solid rgb(0, 0, 0, 0.2); 
     padding: 1rem;
     background-color: rgb(152, 229, 205);
+    color: rgb(0, 0, 0, 0.9);
     text-align: center;
 }
 aside img {
-    width: 300px;
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 200px;
     height: auto;
 }
 p {padding: 0;}
 footer {
-    margin-top: 1px;
+    margin-top: 10px;
     border-top: 1px solid #000;
     text-align: center;
 }
