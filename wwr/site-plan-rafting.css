@@ -1,76 +1,55 @@
-.header {
-    padding: 40px;
-    margin: 0;
-    text-align: right;
-    background-color: rgba(40, 75, 99, 1);
-    color: rgba(255, 252, 255, 1);
-    font-family: 'Fjalla One';
-    font-style: var(200px);
-    font-weight: 500; 
-    font-size: x-large;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    width: 20px;
 }
-h2{
-    text-align: left;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-style: normal;
-    font-size: x-large;
-}
-h3{
-    text-align: left;
-    font-family: 'Roboto';
-    font-weight: 50px;
-    font-style: normal;
-    font-size: larger;
-}
-h4{
-    text-align: left;
-    font-family: 'Roboto';
-    font-weight: 25px;
-    font-style: normal;
-    font-size: larger;
-}
-.navigation{
+:root {
+    --primary-color:#004385ff;
+    --secondary-color:#ab3428ff;
+    --accent1-color:#f3e8eeff;
+    --accent1-color:#fdca40ff;
+
+    --heading font: 'Rubik', serif;
+    --paragrapg-font: 'Roboto', serif;
+
+    --nav-background-color:#ab3428ff;
+    --nav-link-color:#f3e8eeff;
+    --nav-hover-link-color:#ab3428ff;
+    --nav-hover-background-color:#004385ff ;
+} 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
     padding: 20px;
-    margin: 0;
-    text-align: left;
-    background-color: rgba(5, 178, 220, 1);
-    color: rgba(0,0,0,0,1);
-    font-family: 'Fjalla One';
-    font-style: var(200px);
-    font-weight: 500; 
-    font-size: x-larg   e;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
