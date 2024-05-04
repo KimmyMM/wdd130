@@ -1,8 +1,38 @@
-h3{
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: bold;
+.header {
+    background-color: rgba(5, 178, 220, 1)
+    text-align: center;
+    padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Color Palette/* https://coolors.co/fffcff-7dc95e-284b63-ea7317-05b2dc
 /* CSS HEX */
@@ -50,3 +80,4 @@ $gradient-bottom-right: linear-gradient(135deg, #fffcffff, #7dc95eff, #284b63ff,
 $gradient-top-left: linear-gradient(225deg, #fffcffff, #7dc95eff, #284b63ff, #ea7317ff, #05b2dcff);
 $gradient-bottom-left: linear-gradient(315deg, #fffcffff, #7dc95eff, #284b63ff, #ea7317ff, #05b2dcff);
 $gradient-radial: radial-gradient(#fffcffff, #7dc95eff, #284b63ff, #ea7317ff, #05b2dcff);
+
