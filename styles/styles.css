@@ -41,7 +41,14 @@ main img {
     margin: 0 0 1rem 1rem;
 
 }
-p {padding: 0;}
+p {padding: 0;
+}
+aside h2 {
+    position: absolute;
+    left: 135px;
+    bottom: 375px;
+    color: rgb(3, 27, 75);
+}
 footer {
     margin-top: 10px;
     border-top: 1px solid #000;
