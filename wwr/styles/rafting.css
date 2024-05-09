@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 500px;
+    padding: 20px;
+}
+:root {
+    --primary-color:#004385ff;
+    --secondary-color:#ab3428ff;
+    --accent1-color:#f3e8eeff;
+    --accent1-color:#fdca40ff;
+
+    --heading-font: 'Rubik', serif;
+    --paragrapg-font: 'Roboto', serif;
+
+    --nav-background-color:#ab3428ff;
+    --nav-link-color:#f3e8eeff;
+    --nav-hover-link-color:#f3e8eeff;
+    --nav-hover-background-color:#004385ff;
+} 
