@@ -2,7 +2,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 
 }
 
@@ -49,16 +48,17 @@ nav a {
 
 .hero article img {
     position: absolute;
-    width: 30%;
+    width: 100px;
     height: 100px;
     float: right;
+    
 }
 .hero h1 {
     position: absolute;
     top: 10%;
     left: 30%;
     color: var(--nav-link-color);
-    font-style: var(--accent1-color);
+    font-style: var(--heading-font);
     font-size: 100px;
 }
 .hero article {
