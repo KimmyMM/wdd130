@@ -3,7 +3,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
+
 :root {
     --primary-color:#004385ff;
     --secondary-color:#ab3428ff;
@@ -19,8 +21,7 @@
     --nav-hover-background-color:#004385ff;
 }
 
- 
-header {
+ header {
     background-color: var(--accent2-color);
     color: var(--primary-color);
     padding: 10px 20px;
@@ -38,18 +39,19 @@ nav a {
   
 .hero {
 	position: relative; 
+    margin: 20px 0 20px  0;
 }
 .hero img {
 	width: 100%;
 	height: 100%;
+    object-fit: cover;
 }
 
 .hero article img {
-	width: auto;
-	height: 50%;
     position: absolute;
-    top: 30%;
-    right: 5%;
+    width: 30%;
+    height: 100px;
+    float: right;
 }
 .hero h1 {
     position: absolute;
@@ -61,45 +63,63 @@ nav a {
 }
 .hero article {
     position: absolute;
-    max-width: 50%;
+    max-width: 60%;
     top: 40%;
-    left: 15%;
+    left: 10%;
     color: var(--accent1-color);
     font-style: var(--paragraph-font);
     font-size: 50px;
 }
-
-
 
 section h2 {
     font-style: var(--heading-font);
     font-size: 50px;
     margin: auto;
     width: 50%;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     color: var(--nav-hover-background-color);
-
 }
 section img {
+    box-sizing: border-box;
     float: left;
     width: 20%;
-    padding: 5px 0 30px;
-    content: "";
+    padding: 5px;
+    
 }
 p {
     font-style: var(--heading-font);
     font-size: 40px;
-    padding: 30px;
-}
-footer {
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
-    justify-content: space-between;
+    padding: 10px;
+
 }
 
-footer p {
-    font-style: var(--paragraph-font);
-    font-size: 20px;
-    text-align: left;
-}
+footer {
+    background-color: var(--accent2-color);
+    color: var(--nav-hover-background-color);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+  }
+  
+  .footer-content {
+    margin-bottom: 5px;
+  }  
+  .socmed {
+    right: 20px;
+    bottom: 10px;
+    position: absolute;
+  }
+  
+  .socmed a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .socmed img {
+    vertical-align: middle;
+    justify-content: space-between;
+  }
