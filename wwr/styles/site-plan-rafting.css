@@ -9,10 +9,10 @@ body {
     --primary-color:#004385ff;
     --secondary-color:#ab3428ff;
     --accent1-color:#f3e8eeff;
-    --accent1-color:#fdca40ff;
+    --accent2-color:#fdca40ff;
 
     --heading-font: 'Rubik', serif;
-    --paragrapg-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
 
     --nav-background-color:#ab3428ff;
     --nav-link-color:#f3e8eeff;
