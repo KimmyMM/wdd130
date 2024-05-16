@@ -28,6 +28,12 @@
     align-items: center;
     display: flex;
     font-style: var(--heading-font);
+    /* margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px; */
   }
 nav a {
     color: var(--nav-hover-background-color);
