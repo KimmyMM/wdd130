@@ -2,7 +2,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 :root {
@@ -29,7 +28,8 @@
     font-size: 85px;
     justify-content: flex-start;
     font-style: var(--paragraph-font);
-    flex-wrap: nowrap;
+    font-weight: 700;
+    font-style: normal;
       /* font-style: var(--heading-font);
     margin: 1rem auto;
     display: grid;
@@ -69,8 +69,10 @@ nav a {
     top: 10%;
     left: 30%;
     color: var(--nav-link-color);
-    font-style: var(--heading-font);
+    font-style: var(--paragraph-font);
+    font-weight: 700;
     font-size: 100px;
+
     }
 .hero article {
     position: absolute;
