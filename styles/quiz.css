@@ -15,7 +15,7 @@ body {
 header {
     padding: 1rem;
     margin: 0 auto;
-    width: 800px;
+    width: 650px;
     background-color: #6082b6;
     color: #fff;
 }
@@ -25,7 +25,7 @@ h1 {
     text-align: center;
 }
 form {
-    width: 800px;
+    width: 650px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(115, 147, 179, 0.8);
