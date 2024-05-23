@@ -14,24 +14,35 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="Kimberly Mae M. Montenegro">Full name:</label>
-                <input type="text" id="Kimberly Mae M. Montenegro" name="Kimberly Mae M. Montenegro">
-                <label for="kimberlymaemontenegro@gmail.com">Email:</label>
-                <input type="kimberlymaemontenegro@gmail.com" id="kimberlymaemontenegro@gmail.com" name="kimberlymaemontenegro@gmail.com">
+                <div class="form-item">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="Kimberly Mae M. Montenegro">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="useremail" id="useremail" name="kimberlymaemontenegro@gmail.com">
+                    </div>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite internet browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option> 
-                    <option value="safari">Safari</option> 
-                    <option value="edge">Edge</option> 
-                    <option value="brave">Brave</option>
-                    <option value="opera">Opera</option>
-                    <option value="arc">Arc</option>  
-                    <option value="other">Other</option> 
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
+                <div class="column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option> 
+                        <option value="safari">Safari</option> 
+                        <option value="edge">Edge</option> 
+                        <option value="brave">Brave</option>
+                        <option value="opera">Opera</option>
+                        <option value="arc">Arc</option>  
+                        <option value="other">Other</option>
+                    </select>
+                    </div>
+                <div class="column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
                 <label for="feedback">List the places you have lived:</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Urdaneta City Pangasinan, Quezon City Manila, Cebu City Cebu, Muntinlupa Manila"></textarea>        
                 </select>
