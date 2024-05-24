@@ -10,6 +10,11 @@
     --accent1-color:#f3e8eeff;
     --accent2-color:#fdca40ff;
 
+    --third-color:#2D3047;
+    --fourth-color:#E3170A;
+    --accent3-color:#393A10;
+    --accent4-color:#709255;
+
     --heading-font: 'Francois One', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
@@ -21,24 +26,22 @@
 
  header {
     background-color: var(--accent2-color);
-    color: rgba(--primary-color);
     padding: 10px;
-    align-items: center;
     display: flex;
     font-size: 85px;
     justify-content: flex-start;
-    font-style: var(--paragraph-font);
-    font-weight: 700;
     font-style: normal;
+    font-weight: 700;
 }
 
 nav a {
-    color: var(--nav-hover-background-color);
+    color: var(--accent3-color);
     text-decoration: none;
     margin-left: 10px;
-    font-size: xx-large;
+    font-size: 30px;
+    padding: 1rem;
 }
-  
+
 .hero {
 	position: relative;
     margin: 0;
@@ -86,7 +89,7 @@ nav a {
     font-size: 45px;
     font-style: italic;
     position: relative;
-    padding: 8.5%;
+    padding: 13.5%;
 }
 
 section {
@@ -132,11 +135,10 @@ section figure figcaption {
     text-align: center;
     font-size: x-large;
 }
-
 section p {
     font-style: var(--heading-font);
     font-size: 200%;
-    padding: 10px;
+    /* padding: 1px; */
 }
 
 footer {
