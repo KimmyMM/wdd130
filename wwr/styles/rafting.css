@@ -24,7 +24,7 @@
     --nav-hover-background-color:#004385ff;
 }
 
- header {
+header {
     background-color: var(--accent2-color);
     padding: 10px;
     display: flex;
@@ -67,9 +67,9 @@ nav a {
 
 .hero h1 {
     position: absolute;
-    top: 45%;
+    top: 5%;
     right: 40%;
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-style: var(--paragraph-font);
     font-weight: 700;
     font-size: 550%;
@@ -172,4 +172,42 @@ footer {
     /* vertical-align: middle; */
     align-items: center;
     justify-content: space-between;
+}
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+.contact-box {
+    background-color: var(--accent1-color);
+    display: flex;
+}
+.form-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+.form-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: var(--accent4-color);
+    color: var(--accent1-color);
+}
+.container h1 {
+    margin-bottom: 3px;
+}
+.container p {
+    margin-bottom: 10px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+}
+input {
+    width: 100%;
+    border: 1px solid var(--nav-hover-background-color);
+    padding: 5px;
 }
