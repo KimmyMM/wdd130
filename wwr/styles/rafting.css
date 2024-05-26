@@ -173,3 +173,8 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+.container {
+    width: 90%;
+    margin: 55px auto;
+
+}
