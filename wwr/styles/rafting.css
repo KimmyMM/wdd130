@@ -176,5 +176,18 @@ footer {
 .container {
     width: 90%;
     margin: 55px auto;
+}
+.contact-box {
+    display: flex;
+}
+.form-left {
+    flex-basis: 40%;
+    padding: 20px 40px;
+}
+.form-right {
+    flex-basis: 60%;
+    padding: 30px;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hosver-link-color);
 
 }
