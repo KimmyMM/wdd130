@@ -176,8 +176,7 @@ footer {
 .container {
     width: 100%;
     margin: 10px;
-    display: relative;
-
+    display: flex;
 }
 .contact-box {
     display: flex;
@@ -185,8 +184,8 @@ footer {
     margin-bottom: 20px;
     background-color: aqua;
 }
-h1 {
-    margin: 10px auto;
+contact-box h1 {
+    position: flex;
 }
 .form-left {
     flex-basis: 40%;
@@ -234,21 +233,22 @@ textarea {
     outline: none;
     padding: 10px;
     box-sizing: border-box; 
+
 }
 label {
     margin-bottom: 6px;
     display: block;
     color: var(--accent3-color);
 }
+
 button{
     background-color: var(--primary-color);
-    width: 100px;
+    width: 100;
     border: none;
     outline: none;
     color: var(--accent1-color);
     height: 35px;
     border-radius: 30px;
-    margin-top: ;
     box-shadow: 0px 5px 15px 0px;
 
 }.form-left h3 {
@@ -268,6 +268,6 @@ tr td {
 
 image-container figure {
     display: flex;
-    
-
+    float: right;
+    flex-direction: row;
 }
