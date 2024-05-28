@@ -1,0 +1,113 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-column {
+    width: 48%;
+}
+
+.form-column h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.table-row table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.map iframe {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.map p {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.image-container figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    border-radius: 4px;
+}
+
+.image-container figcaption {
+    margin-top: 5px;
+    font-style: italic;
+    color: #555;
+}
