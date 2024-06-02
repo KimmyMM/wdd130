@@ -163,7 +163,7 @@ footer {
     position: absolute;
 }
 
- .socmed a {
+.socmed a {
     display: inline-block;
     margin-right: 10px;
 }
@@ -255,4 +255,127 @@ tr, td {
 }
 map {
     display: block;
+}
+
+/* .trips h1 {
+    display: flex;
+    font-family: var(--heading-font);
+    font-size: 150px;
+    font-weight: 400;
+    color: var(--primary-color);
+    justify-content: center;
+}
+.go-to {
+    display: flex;
+    flex: 33.3%;
+    background-color: #709255;
+    margin: 10px 0 0 5px; 
+    column-gap: 5px;
+    justify-content: center;
+}
+.table {
+    position: relative;
+    display: block;
+
+    justify-content: center;
+
+    background-color: #E3170A;
+    margin: 5px;
+    padding: 30px;
+
+}
+.table h2 {
+    display: flex;
+    font-family: var(--heading-font);
+    font-size: 40px;
+    font-weight: 150;
+    color: var(--nav-hover-background-color);
+}
+.table img {
+    justify-content: space-around;
+    align-self: center;
+    margin: 5px;
+    width: 800px;
+    height: 500px;
+} */
+/* .trips {
+    position: relative;
+} */
+.trips h1 {
+    display: flex;
+    font-family: var(--heading-font);
+    font-size: 80px;
+    font-weight: 400;
+    color: var(--primary-color);
+    justify-content: center;
+    margin: 20px 0 30px;
+}
+.trips table {
+    display: block;
+     max-width: 100%;
+     /* border: 1px solid #000; */
+     padding: 5px5;
+     /* overflow:  auto; */
+     margin: auto;
+     /* text-wrap: wrap; */
+     border-collapse: separate;
+     border-spacing: 20px;
+     /* background-color: #E3170A; */
+}
+
+table>thead {
+    /* background-color: var(--nav-hover-background-color); */
+    /* color: var(--accent1-color); */
+    color: var(--accent3-color);
+    padding: 5px;
+    margin-bottom: 2px;
+
+}
+
+table>thead th {
+    padding: 10px;
+    font-size: 35px;
+    background-color: #2D3047;
+    color: aliceblue;
+}
+
+table th, table td {
+    /* border: 1px solid #2D3047; */
+    padding: 0 25px 0 25px;
+    font-family: var(--paragraph-font);
+}
+
+table tbody tr td img {
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tbody tr:nth-of-type(even) {
+    color: #1e36e8;
+}
+
+table tbody tr:nth-of-type(3) {
+    background-color: rgba(56, 56, 62, 0.7);
+    color:aliceblue;
+}
+
+table tbody tr:nth-of-type(5) {
+    background-color: rgba(56, 56, 62, 0.7);
+    color:aliceblue;
+}
+}
+
+table tbody tr:nth-of-type(7) {
+    background-color: rgba(56, 56, 62, 0.7);
+    color: aliceblue;
+}
+}
+
+table tbody tr:nth-of-type(9) {
+    background-color: rgba(56, 56, 62, 0.7);
+}
 }
