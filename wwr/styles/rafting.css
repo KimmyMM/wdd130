@@ -289,7 +289,7 @@ table>thead {
 
 }
 
-table>thead th {
+table>thead tr th {
     padding: 10px;
     font-size: 35px;
     background-color: #2D3047;
