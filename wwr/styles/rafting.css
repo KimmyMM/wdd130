@@ -59,7 +59,7 @@ nav a {
 .hero article img {
     position: absolute;
     width: 55%;
-    height: auto;
+    height: 330px;
     float: right;
     top: 0;
     left: 100%;
@@ -88,11 +88,12 @@ nav a {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .hero p {
-    font-size: 45px;
+    font-size: 50px;
     font-style: italic;
     position: relative;
     padding: 10%;
     margin-bottom: 25px;
+    color: var(--accent1-color);
 }
 
 section {
@@ -194,7 +195,7 @@ footer {
 
 }
 .form-column2 {
-    background-color: rgba(5, 15, 29, 0.7);
+    background-color: rgba(189, 197, 209, 0.7);
     width: 35%;
     /* box-shadow: 5px 5px 25px  rgb(132, 135, 142); */
     padding: 10px 30px;
@@ -239,11 +240,12 @@ textarea, input[type="text"]  {
     font-size: 30px;
     margin-bottom: 15px;
     text-align: left;
-    color: #e8e9ea;
+    color: #131517;
+    
 }
 
 .table, tr td {
-    color: #e8e9ea;
+    color: #131517; 
     font-family: var(--paragraph-font);
     font-size: 15px;
     font-weight: 600;
@@ -258,7 +260,7 @@ textarea, input[type="text"]  {
 
 .image-container h2 {
     font-family: var(--heading-font);
-    color: #e8e9ea;
+    color: #131517;
     font-weight: 200;
     font-size: 20px;
     margin-top: 25px;
@@ -269,7 +271,7 @@ textarea, input[type="text"]  {
 
 
 .image-container, .figcaption {
-    color: #e8e9ea;
+    color: #131517;
     margin-bottom: 10px;
 }
 
