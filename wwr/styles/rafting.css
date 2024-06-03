@@ -177,69 +177,63 @@ footer {
 }
 
 .container {
-    padding: 40px;
-    margin: 40px auto;
+    display: flex;
+    margin: 20px 10px 10px 10px;
+    height: 100%;
+    justify-content: center;
+    gap: 1em;
+    flex-grow: 1;
+}
+
+.form-column1 {
+    background-color: aqua;
+    width: 45%;
+    box-shadow: 5px 5px 25px  rgb(142, 142, 132);
+    padding: 10px 30px;
+    border-radius: 10px;
     position: relative;
+
 }
-.form-column {
-    float: left;
-    width: 50%;
+.form-column2 {
+    background-color: rgb(133, 22, 66);
+    width: 55%;
+    box-shadow: 5px 5px 25px  rgb(142, 142, 132);
+    padding: 10px 30px;
+    border-radius: 10px;
 }
-.form-column h1{
+.form-column1 h1 {
     font-family: var(--heading-font);
-    font-weight: 500;
-    font-size: 45px;
-}
-.form-group {
-    padding: 2em;
-    margin-bottom: 1px;
-    width: 70%;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    vertical-align: middle;
-    margin-right: 8px;
-
-}
-.form-row {
-    padding: 1rem;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #1e213a;
 }
 
-textarea + label, input[type="text"] + label {
+label, p {
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 25px;
+    display: inline-block;
+    text-wrap: wrap;
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: #222b31ec;
+    text-indent: 10px;
+}
+
+textarea, input[type="text"]  {
     padding: 10px;
     margin: 5px;
     font-size: 1rem;
     margin-left: 10px;
     width: 95%;
-}
-label {
-    text-align: left;
-    padding-right: 1rem;
-    font-size: 25px;
-    display: block;
-    margin-bottom: 10px;    
-}
-textarea {
-    display: block;
-    padding: 10px;
-    margin: 5px;
-}
-button {
-    margin: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    font-size: 1.3rem;
-    color: rgb(0, 71, 171);
-    font-weight: 700;
+    margin: 10px;
 }
 
-button:hover {
-    background-color: rgb(0, 71, 171);
-    color: #fff;
-}
-.table-row table {
+
+/* .table-row table {
     width: 100%;
     border-collapse: collapse;
     }
@@ -257,7 +251,7 @@ tr, td {
 }
 map {
     display: block;
-}
+} */
 
 .trips {
     position: relative;
