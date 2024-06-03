@@ -141,6 +141,7 @@ section figure figcaption {
 section p {
     font-style: var(--heading-font);
     font-size: 200%;
+    padding: 20px;
 }
 
 footer {
