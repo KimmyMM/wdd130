@@ -180,26 +180,26 @@ footer {
     display: flex;
     margin: 20px 10px 10px 10px;
     justify-content: center;
-    gap: 1em;
     flex-grow: 1;
 }
 
 .form-column1 {
-    background-color: rgba(0,0,0,0.5);
-    width: 45%;
+    background-color: rgb(154, 184, 226);
+    width: 65%;
     height: fit-content;
-    box-shadow: 5px 5px 25px  rgb(142, 142, 132);
+    /* box-shadow: 5px 5px 25px  rgb(142, 142, 132); */
     padding: 10px 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     position: relative;
 
 }
 .form-column2 {
-    background-color: rgb(133, 22, 66);
-    width: 55%;
-    box-shadow: 5px 5px 25px  rgb(142, 142, 132);
+    background-color: rgba(5, 15, 29, 0.7);
+    width: 35%;
+    /* box-shadow: 5px 5px 25px  rgb(132, 135, 142); */
     padding: 10px 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    position: relative;
 }
 .form-column1 h1 {
     font-family: var(--heading-font);
@@ -207,19 +207,20 @@ footer {
     font-size: 30px;
     margin-bottom: 15px;
     text-align: left;
-    color: #1e213a;
+    color: #021e3b;
 }
 
 label, p {
     text-align: left;
     padding-right: 1rem;
     font-size: 25px;
-    display: inline-block;
-    text-wrap: wrap;
+    display: grid;
+    cursor: pointer;
+    /* text-wrap: wrap; */
     font-family: var(--paragraph-font);
     font-size: 15px;
     font-weight: 600;
-    color: #222b31ec;
+    color: #0e0e0fec;
     text-indent: 10px;
 }
 
@@ -232,26 +233,46 @@ textarea, input[type="text"]  {
     margin: 10px;
 }
 
-
-/* .table-row table {
-    width: 100%;
-    border-collapse: collapse;
-    }
-
-.image-container, figure {
-    width: 60%;
-    flex-direction: row;
+.form-column2 h1 {
+    font-family: var(--heading-font);
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #e8e9ea;
 }
-tr, td {
-    font-size: x-large;
-    margin-bottom: 20px;
+
+.table, tr td {
+    color: #e8e9ea;
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    font-weight: 600;
+    text-indent: 15px;
 }
-.map p {
+
+.map {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.image-container h2 {
+    font-family: var(--heading-font);
+    color: #e8e9ea;
+    font-weight: 200;
     font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    text-align: left;
 }
-map {
-    display: block;
-} */
+
+
+.image-container, .figcaption {
+    color: #e8e9ea;
+    margin-bottom: 10px;
+}
+
 
 .trips {
     position: relative;
@@ -274,7 +295,6 @@ map {
     padding: 5px;
     border-collapse: separate;
     border-spacing: 20px;
-
 }
 
 table>thead {
