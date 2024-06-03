@@ -297,14 +297,14 @@ textarea, input[type="text"]  {
     border-spacing: 20px;
 }
 
-table>thead {
+table thead {
     color: var(--accent3-color);
     padding: 5px;
     margin-bottom: 2px;
 
 }
 
-table>thead tr th {
+table thead tr th {
     padding: 10px;
     font-size: 35px;
     background-color: #2D3047;
@@ -314,6 +314,7 @@ table>thead tr th {
 table th, table td {
     padding: 0 25px 0 25px;
     font-family: var(--paragraph-font);
+    color: #000;
 }
 
 table tbody tr td img {
@@ -328,4 +329,19 @@ table tbody tr:nth-of-type(n) {
     color: #393A10;
     font-weight: 400;
     font-size: 50px;
+}
+
+button {
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.3rem;
+    color: rgb(0, 71, 171);
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(0, 71, 171);
+    color: #fff;
 }
