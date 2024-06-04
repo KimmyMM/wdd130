@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -179,10 +180,11 @@ footer {
 
 .container {
     display: flex;
+    position: relative;
     margin: 20px 10px 10px 10px;
     justify-content: center;
     flex-grow: 1;
-}
+}   
 
 .form-column1 {
     background-color: rgb(154, 184, 226);
@@ -217,7 +219,6 @@ label, p {
     font-size: 25px;
     display: grid;
     cursor: pointer;
-    /* text-wrap: wrap; */
     font-family: var(--paragraph-font);
     font-size: 15px;
     font-weight: 600;
@@ -269,12 +270,10 @@ textarea, input[type="text"]  {
     text-align: left;
 }
 
-
 .image-container, .figcaption {
     color: #131517;
     margin-bottom: 10px;
 }
-
 
 .trips {
     position: relative;
