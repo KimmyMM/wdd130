@@ -211,7 +211,11 @@ footer {
     font-size: 30px;
     margin-bottom: 15px;
     text-align: left;
-    color: #021e3b;
+    color: #131517; 
+}
+.form-group p {
+    text-align: left;
+    color: #131517; 
 }
 
 label, p {
@@ -223,7 +227,7 @@ label, p {
     font-family: var(--paragraph-font);
     font-size: 15px;
     font-weight: 600;
-    color: #0e0e0fec;
+    color: #131517;     
     text-indent: 10px;
 }
 
@@ -242,7 +246,7 @@ textarea, input[type="text"]  {
     font-size: 30px;
     margin-bottom: 15px;
     text-align: left;
-    color: #131517;
+    color: #131517; 
 }
 
 .table, tr td {
@@ -259,10 +263,15 @@ textarea, input[type="text"]  {
     left: 20px;
 }
 
+.map p {
+    color: #131517; 
+    text-align: left;
+}
+
 .form-column2, h2 {
     display: block;
     font-family: var(--heading-font);
-    color: #131517;
+    color: #191a1b;
     font-weight: 200;
     font-size: 20px;
     margin-top: 25px;
@@ -281,6 +290,7 @@ textarea, input[type="text"]  {
     float:left;
     font-size: 15px;
     text-align: center;
+    color: #131517; 
 }
 
 .trips {
